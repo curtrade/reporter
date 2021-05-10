@@ -1,0 +1,44 @@
+{
+  "name": "reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/odnokasanie/reporter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/odnokasanie/reporter/issues"
+  },
+  "homepage": "https://gitlab.com/odnokasanie/reporter#readme",
+  "dependencies": {
+    "@sentry/integrations": "^6.1.0",
+    "@sentry/node": "^5.27.6",
+    "cors": "^2.8.5",
+    "editor-dbf": "^0.1.0",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-basic-auth": "^1.2.0",
+    "express-rate-limit": "^5.2.5",
+    "graylogger": "^0.1.5",
+    "iconv-lite": "^0.6.2",
+    "jszip": "^3.6.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "node-cron": "^3.0.0",
+    "node-json2html": "^1.4.0",
+    "nodemailer": "^6.4.18",
+    "revalidator": "^0.3.1",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  }
+}
